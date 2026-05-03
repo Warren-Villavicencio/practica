@@ -6,7 +6,7 @@ Explicación del código actual:
 - if face_id_ok or touch_id_ok: Utiliza el operador lógico 'or' para verificar si al menos una de las dos condiciones es verdadera.
 - print(...): Muestra un mensaje de éxito si alguna de las verificaciones biométricas es correcta, o un mensaje de error si ambas fallan.
 
----
+
 Aplicación de los principios SOLID a este código (Refactorización sugerida):
 
 1. Single Responsibility Principle (SRP - Responsabilidad Única):
